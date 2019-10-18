@@ -5,25 +5,25 @@ export interface IGitHubGistFileDescription {
   /**
    * Filename.
    */
-  filename: String;
+  filename: string;
 
   /**
    * Type.
    */
-  type: String;
+  type: string;
 
   /**
    * Language.
    */
-  language: String;
+  language: string;
 
   /**
    * Raw URL (Uniform Resource Locator).
    */
-  raw_url: String;
+  raw_url: string;
 
   /**
    * Size.
    */
-  size: Number;
+  size: number;
 }

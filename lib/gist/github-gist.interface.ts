@@ -8,37 +8,37 @@ export interface IGitHubGist {
   /**
    * URL (Uniform Resource Locator).
    */
-  url: String;
+  url: string;
 
   /**
    * Forks URL (Uniform Resource Locator).
    */
-  forks_url: String;
+  forks_url: string;
 
   /**
    * Commits URL (Uniform Resource Locator).
    */
-  commits_url: String;
+  commits_url: string;
 
   /**
    * Unique identifier.
    */
-  id: String;
+  id: string;
 
   /**
    * Git pull URL (Uniform Resource Locator).
    */
-  git_pull_url: String;
+  git_pull_url: string;
 
   /**
    * Git push URL (Uniform Resource Locator).
    */
-  git_push_url: String;
+  git_push_url: string;
 
   /**
    * HTML (Hypertext Markup Language) URL (Uniform Resource Locator).
    */
-  html_url: String;
+  html_url: string;
 
   /**
    * Files.
@@ -48,37 +48,37 @@ export interface IGitHubGist {
   /**
    * Public.
    */
-  public: Boolean;
+  public: boolean;
 
   /**
    * Created at.
    */
-  created_at: String;
+  created_at: string;
 
   /**
    * Updated at.
    */
-  updated_at: String;
+  updated_at: string;
 
   /**
    * Description.
    */
-  description: String;
+  description: string;
 
   /**
    * Comments.
    */
-  comments: Number;
+  comments: number;
 
   /**
    * User.
    */
-  user?: String;
+  user?: string;
 
   /**
    * Comments URL (Uniform Resource Locator).
    */
-  comments_url: String;
+  comments_url: string;
 
   /**
    * Owner.
@@ -88,5 +88,5 @@ export interface IGitHubGist {
   /**
    * Truncated.
    */
-  truncated: Boolean;
+  truncated: boolean;
 }

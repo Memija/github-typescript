@@ -7,17 +7,17 @@ export interface IGitHubRepository {
   /**
    * Unique identifier.
    */
-  id: Number;
+  id: number;
 
   /**
    * Name.
    */
-  name: String;
+  name: string;
 
   /**
    * Full name.
    */
-  full_name: String;
+  full_name: string;
 
   /**
    * Owner.
@@ -27,325 +27,325 @@ export interface IGitHubRepository {
   /**
    * Private.
    */
-  private: Boolean;
+  private: boolean;
 
   /**
    * HTML (Hypertext Markup Language) URL (Uniform Resource Locator).
    */
-  html_url: String;
+  html_url: string;
 
   /**
    * Description.
    */
-  description: String;
+  description: string;
 
   /**
    * Fork.
    */
-  fork: Boolean;
+  fork: boolean;
 
   /**
    * URL (Uniform Resource Locator).
    */
-  url: String;
+  url: string;
 
   /**
    * Forks URL (Uniform Resource Locator).
    */
-  forks_url: String;
+  forks_url: string;
 
   /**
    * Keys URL (Uniform Resource Locator).
    */
-  keys_url: String;
+  keys_url: string;
 
   /**
    * Collaborators URL (Uniform Resource Locator).
    */
-  collaborators_url: String;
+  collaborators_url: string;
 
   /**
    * Teams URL (Uniform Resource Locator).
    */
-  teams_url: String;
+  teams_url: string;
 
   /**
    * Hooks URL (Uniform Resource Locator).
    */
-  hooks_url: String;
+  hooks_url: string;
 
   /**
    * Issue events URL (Uniform Resource Locator).
    */
-  issue_events_url: String;
+  issue_events_url: string;
 
   /**
    * Events URL (Uniform Resource Locator).
    */
-  events_url: String;
+  events_url: string;
 
   /**
    * Assignees URL (Uniform Resource Locator).
    */
-  assignees_url: String;
+  assignees_url: string;
 
   /**
    * Branches URL (Uniform Resource Locator).
    */
-  branches_url: String;
+  branches_url: string;
 
   /**
    * Tags URL (Uniform Resource Locator).
    */
-  tags_url: String;
+  tags_url: string;
 
   /**
    * Blobs URL (Uniform Resource Locator).
    */
-  blobs_url: String;
+  blobs_url: string;
 
   /**
    * Git tags URL (Uniform Resource Locator).
    */
-  git_tags_url: String;
+  git_tags_url: string;
 
   /**
    * Git refs URL (Uniform Resource Locator).
    */
-  git_refs_url: String;
+  git_refs_url: string;
 
   /**
    * Trees URL (Uniform Resource Locator).
    */
-  trees_url: String;
+  trees_url: string;
 
   /**
    * Statuses URL (Uniform Resource Locator).
    */
-  statuses_url: String;
+  statuses_url: string;
 
   /**
    * Languages URL (Uniform Resource Locator).
    */
-  languages_url: String;
+  languages_url: string;
 
   /**
    * Stargazers URL (Uniform Resource Locator).
    */
-  stargazers_url: String;
+  stargazers_url: string;
 
   /**
    * Contributors URL (Uniform Resource Locator).
    */
-  contributors_url: String;
+  contributors_url: string;
 
   /**
    * Subscribers URL (Uniform Resource Locator).
    */
-  subscribers_url: String;
+  subscribers_url: string;
 
   /**
    * Subscription URL (Uniform Resource Locator).
    */
-  subscription_url: String;
+  subscription_url: string;
 
   /**
    * Commits URL (Uniform Resource Locator).
    */
-  commits_url: String;
+  commits_url: string;
 
   /**
    * Git commits URL (Uniform Resource Locator).
    */
-  git_commits_url: String;
+  git_commits_url: string;
 
   /**
    * Comments URL (Uniform Resource Locator).
    */
-  comments_url: String;
+  comments_url: string;
 
   /**
    * Comments URL (Uniform Resource Locator).
    */
-  issue_comment_url: String;
+  issue_comment_url: string;
 
   /**
    * Contents URL (Uniform Resource Locator).
    */
-  contents_url: String;
+  contents_url: string;
 
   /**
    * Compare URL (Uniform Resource Locator).
    */
-  compare_url: String;
+  compare_url: string;
 
   /**
    * Merges URL (Uniform Resource Locator).
    */
-  merges_url: String;
+  merges_url: string;
 
   /**
    * Archive URL (Uniform Resource Locator).
    */
-  archive_url: String;
+  archive_url: string;
 
   /**
    * Downloads URL (Uniform Resource Locator).
    */
-  downloads_url: String;
+  downloads_url: string;
 
   /**
    * Issues URL (Uniform Resource Locator).
    */
-  issues_url: String;
+  issues_url: string;
 
   /**
    * Pulls URL (Uniform Resource Locator).
    */
-  pulls_url: String;
+  pulls_url: string;
 
   /**
    * Milestones URL (Uniform Resource Locator).
    */
-  milestones_url: String;
+  milestones_url: string;
 
   /**
    * Notifications URL (Uniform Resource Locator).
    */
-  notifications_url: String;
+  notifications_url: string;
 
   /**
    * Labels URL (Uniform Resource Locator).
    */
-  labels_url: String;
+  labels_url: string;
 
   /**
    * Releases URL (Uniform Resource Locator).
    */
-  releases_url: String;
+  releases_url: string;
 
   /**
    * Deployments URL (Uniform Resource Locator).
    */
-  deployments_url: String;
+  deployments_url: string;
 
   /**
    * Created at.
    */
-  created_at: String;
+  created_at: string;
 
   /**
    * Updated at.
    */
-  updated_at: String;
+  updated_at: string;
 
   /**
    * Pushed at.
    */
-  pushed_at: String;
+  pushed_at: string;
 
   /**
    * Git URL (Uniform Resource Locator).
    */
-  git_url: String;
+  git_url: string;
 
   /**
    * SSH (Secure Shell) URL (Uniform Resource Locator).
    */
-  ssh_url: String;
+  ssh_url: string;
 
   /**
    * Clone URL (Uniform Resource Locator).
    */
-  clone_url: String;
+  clone_url: string;
 
   /**
    * SVN (Apache Subversion) URL (Uniform Resource Locator).
    */
-  svn_url: String;
+  svn_url: string;
 
   /**
    * Homepage.
    */
-  homepage?: String;
+  homepage?: string;
 
   /**
    * Size.
    */
-  size: Number;
+  size: number;
 
   /**
    * Stargazers count.
    */
-  stargazers_count: Number;
+  stargazers_count: number;
 
   /**
    * Watchers count.
    */
-  watchers_count: Number;
+  watchers_count: number;
 
   /**
    * Language.
    */
-  language: String;
+  language: string;
 
   /**
    * Has issues.
    */
-  has_issues: Boolean;
+  has_issues: boolean;
 
   /**
    * Has projects.
    */
-  has_projects: Boolean;
+  has_projects: boolean;
 
   /**
    * Has downloads.
    */
-  has_downloads: Boolean;
+  has_downloads: boolean;
 
   /**
    * Has Wiki.
    */
-  has_wiki: Boolean;
+  has_wiki: boolean;
 
   /**
    * Has pages.
    */
-  has_pages: Boolean;
+  has_pages: boolean;
 
   /**
    * Forks count.
    */
-  forks_count: Number;
+  forks_count: number;
 
   /**
    * Mirror URL (Uniform Resource Locator).
    */
-  mirror_url?: String;
+  mirror_url?: string;
 
   /**
    * Open issues count.
    */
-  open_issues_count: Number;
+  open_issues_count: number;
 
   /**
    * Forks.
    */
-  forks: Number;
+  forks: number;
 
   /**
    * Open issues.
    */
-  open_issues: Number;
+  open_issues: number;
 
   /**
    * Watchers.
    */
-  watchers: Number;
+  watchers: number;
 
   /**
    * Default branch.
    */
-  default_branch: String;
+  default_branch: string;
 }

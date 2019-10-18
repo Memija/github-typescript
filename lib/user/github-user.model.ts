@@ -5,85 +5,85 @@ export interface IGitHubUser {
   /**
    * Username.
    */
-  login: String;
+  login: string;
 
   /**
    * Unique identifier.
    */
-  id: Number;
+  id: number;
 
   /**
    * Avatar URL (Uniform Resource Locator).
    */
-  avatar_url: String;
+  avatar_url: string;
 
   /**
    * Gravatar URL (Uniform Resource Locator).
    */
-  gravatar_id: String;
+  gravatar_id: string;
 
   /**
    * URL (Uniform Resource Locator).
    */
-  url: String;
+  url: string;
 
   /**
    * HTML (Hypertext Markup Language) URL (Uniform Resource Locator).
    */
-  html_url: String;
+  html_url: string;
 
   /**
    * Followers URL (Uniform Resource Locator).
    */
-  followers_url: String;
+  followers_url: string;
 
   /**
    * Following URL (Uniform Resource Locator).
    */
-  following_url: String;
+  following_url: string;
 
   /**
    * Gists URL (Uniform Resource Locator).
    */
-  gists_url: String;
+  gists_url: string;
 
   /**
    * Starred URL (Uniform Resource Locator).
    */
-  starred_url: String;
+  starred_url: string;
 
   /**
    * Subscriptions URL (Uniform Resource Locator).
    */
-  subscriptions_url: String;
+  subscriptions_url: string;
 
   /**
    * Organizations URL (Uniform Resource Locator).
    */
-  organizations_url: String;
+  organizations_url: string;
 
   /**
    * Repository URL (Uniform Resource Locator).
    */
-  repos_url: String;
+  repos_url: string;
 
   /**
    * Events URL (Uniform Resource Locator).
    */
-  events_url: String;
+  events_url: string;
 
   /**
    * Received events URL (Uniform Resource Locator).
    */
-  received_events_url: String;
+  received_events_url: string;
 
   /**
    * Type.
    */
-  type: String;
+  type: string;
 
   /**
    * Site admin.
    */
-  site_admin: Boolean;
+  site_admin: boolean;
 }
